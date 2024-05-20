@@ -41,15 +41,14 @@ int main()
 	int ComputerTotal = 0;
 	
 	PlayerCard1 = Draw();
-	cout << PlayerCard1 << endl;
+	cout <<"플레이어 카드1 : " << PlayerCard1 << endl;
 	PlayerCard2 = Draw();
-	cout << PlayerCard2 << endl;
+	cout << "플레이어 카드2 : " << PlayerCard2 << endl;
 
 	ComputerCard1 = Draw();
-	cout << ComputerCard1 << endl;
-
+	cout << "컴퓨터 카드1 : " << ComputerCard1 << endl;
 	ComputerCard2 = Draw();
-	cout << ComputerCard2 << endl;
+	cout << "컴퓨터 카드2 : " << ComputerCard2 << endl;
 
 	PlayerTotal = PlayerCard1 + PlayerCard2;
 	ComputerTotal = ComputerCard1 + ComputerCard2;
